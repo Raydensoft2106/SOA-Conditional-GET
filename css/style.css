@@ -1,0 +1,53 @@
+body {
+  font-family: Myriad,"Lucida Grande","Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+  line-height: 1.6;
+}
+
+.leftArea {
+	float:left;
+	width: 260px;
+	margin-right:60px;
+	border:solid 1px #CCCCCC;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.mainArea {
+	float:left;
+	margin-right:20px;
+	width:300px;
+}
+
+.rightArea {
+	float:left;
+	width:270px;
+}
+
+.mainArea input {
+  margin-bottom:15px;
+  margin-top:5px;
+  width:280px;
+}
+
+textarea {
+	margin-bottom:15px;
+  	margin-top:5px;
+	height: 200px;
+  	width:250px;
+}
+
+label {
+	display:block;
+}
+
+
